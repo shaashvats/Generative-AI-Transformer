@@ -64,6 +64,5 @@ Use Vectorization to do so rather than using for loops. If you don't know how to
 
 **IMPortant:** Do not use scikit learn or keras or any other libraries. Implement the codes from scratch using numpy.<br/>
 Implement seperate functions such as initialization, forward propagation, cost calculation and back propagation and then compile all of it in a class/function and test your neural net.
-
 ---
 
