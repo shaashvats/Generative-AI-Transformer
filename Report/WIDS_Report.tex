@@ -307,7 +307,7 @@ y_pred = model.predict(x_test)
 \end{itemize}
 \pagebreak
 \section{Week Four}
-In week four, I learnt the theory behind the architecture of transformers and implemented one to produce text like Shakespeare using generative word prediction. 
+In week four, I learnt the theory behind the architecture of transformers and implemented one to produce text like Shakespeare using generative character prediction. 
 \subsection{Transformer Theory}
 \begin{itemize}
 \item \textbf{Tokenization} converts words to tokens, making a string a series of tokens
@@ -324,10 +324,11 @@ In week four, I learnt the theory behind the architecture of transformers and im
 \item In my first attempt at building a Large Language Model (LLM), I tokenized the characters not the words
 \item Given the sparse nature of training data, and very few epochs of training implemented, this resulted in some illegible text output (See next page)
 \item In some sense, it is a successful "stochastic parrot" because it is generating new tokens, however this is not what I had set out to achieve. 
-\item Something I learnt from this endeavour is that LLMs take a lot of compute to train. This primitive one took ten hours for ten epochs.
+\item Something I learnt from this endeavour is that LLMs take a lot of compute to train. This primitive one took ten hours for ten epochs. 
+\item (Unofficial conclusion) I did not have the motivation to build the correct version of the Shakespeare parrot (where I tokenize words instead). This leaves me feeling a slight lack of closure, which I hope to channel some of into building more technical, detailed projects involving ai/ml/transformers/llms in the future. I hope that the efforts I have put into this project reflect a growing understanding of AI and my eagerness to learn.
 \end{itemize}
 \pagebreak
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.7\textwidth]{gen_1} 
     \caption{Character tokenization}
@@ -336,7 +337,7 @@ In week four, I learnt the theory behind the architecture of transformers and im
 \pagebreak
 \section{Conclusion}
 This is the first project in machine learning that I have completed. Over the course of the project, I have learned to work with TensorFlow, Keras, and NumPy, using them to implement various machine learning models. In weeks one and two, I implemented perceptrons and neural networks to model logical gates.
-In week three, I developed a neural network to predict house prices using the Boston housing dataset with TensorFlow. Finally, I implemented a transformer model for character and word generation, training it on Shakespeare's texts.
+In week three, I developed a neural network to predict house prices using the Boston housing dataset with TensorFlow. Finally, I implemented a transformer model for character generation, training it on Shakespeare's texts.
 
 By building these models, I have gained a solid foundation in machine learning and artificial intelligence. Familiarizing myself with the transformer architecture has helped me understand its applications in various generative AI systems.  This project has sparked my interest in exploring the theoretical foundations of artificial intelligence and in creating projects that leverage it to generate value for society.
 
